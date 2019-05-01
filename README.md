@@ -10,3 +10,15 @@
 * * For non-Boolean (discrete valued) attributes, used a multi-way split. Used information gain as the criterion for choosing the attribute to split on. 
 * * In case of a tie, choosen the attribute which appears first in the ordering as given in the training data. 
 * * Ploted the train, validation and test set accuracies against the number of nodes in the tree as you grow the tree. On X-axis ploted the number of nodes in the tree and Y-axis should represent the accuracy.
+
+* Used the scikit-learn library of Python to grow a decision tree. 
+* * Tried growing different trees by playing around with parameter values. 
+* * Experimented with parameters min samples split, min samples leaf and max depth (varied other parameters as well). 
+* * Found the setting of parameters which gives the best accuracy on the validation set. 
+* * Reported training, validation and test set accuracies for this parameter setting.
+
+* Next, used the scikit-learn library to learn a random forest over the data. 
+* * Tried growing different forests by playing around with parameter values. 
+* * Experimented with parameters n estimators, max features and bootstrap (varied other parameters as well). 
+* * Found the setting of parameters which gives the best accuracy on the validation set. 
+* * Reported training, validation and test set accuracies for this parameter setting.
