@@ -22,3 +22,8 @@
 * * Experimented with parameters n estimators, max features and bootstrap (varied other parameters as well). 
 * * Found the setting of parameters which gives the best accuracy on the validation set. 
 * * Reported training, validation and test set accuracies for this parameter setting.
+
+# Author 
+ * [Harshit Monish](https://github.com/harshitmonish)
+ 
+## Course Project Under [Prof. Parag Singla](http://www.cse.iitd.ernet.in/~parags/)
